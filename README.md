@@ -38,8 +38,8 @@ Follow these steps to get the bot running.
 ### 2. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone [https://github.com/PhNishimura/scraping_outlet]
+cd scraping_outlet
 ```
 
 ### 3\. Install Dependencies
