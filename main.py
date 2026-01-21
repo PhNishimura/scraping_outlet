@@ -12,8 +12,8 @@ import json
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # YOUR BOT_TOKEN AND CHAT_ID
-BOT_TOKEN = "SEU BOT TOKEN"
-CHAT_ID = "SEU CHAT ID"
+BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+CHAT_ID = "YOUR_CHAT_ID_HERE"
 
 # BERZERK URLS
 BASE_URL = 'https://berzerk.com.br'
@@ -182,7 +182,7 @@ def run_task():
     print("----------------------------------------------------\n")
 
 if __name__ == "__main__":
-    if "SEU BOT TOKEN" in BOT_TOKEN or "SEU CHAT ID" in CHAT_ID:
+    if "YOUR_BOT_TOKEN" in BOT_TOKEN or "YOUR_CHAT_ID" in CHAT_ID:
         print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         print("!!! ATTENTION: FILL IN YOUR BOT_TOKEN AND CHAT_ID !!!")
         print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
